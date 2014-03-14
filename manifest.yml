@@ -1,0 +1,9 @@
+---
+applications:
+- name: anynines-pdflib-example
+  memory: 256M
+  instances: 1
+  host: anynines-pdflib-example
+  domain: de.a9sapp.eu
+  path: .
+  command: ruby app.rb
